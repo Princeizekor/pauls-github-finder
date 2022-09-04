@@ -1,0 +1,41 @@
+#about {
+    max-width: 1440px;
+    margin: 0% auto;
+    padding: 20px 120px;
+}
+
+.abouts {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 4px;
+}
+
+.abouts p {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+    #about {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #about {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #about {
+        width: 100%;
+        padding: 20px;
+    }
+}

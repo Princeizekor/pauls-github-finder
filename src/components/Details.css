@@ -1,0 +1,208 @@
+.back {
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 229, 229);
+    font-size: 15px;
+    font-weight: 600;
+    color: grey;
+    border-radius: 4px;
+}
+
+.arrow-left {
+    margin-right: 5px;
+}
+
+.detail {
+    max-width: 1440px;
+    margin: 0% auto;
+    padding: 20px 120px;
+}
+
+.user-data {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 4px;
+}
+
+.user-data1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    border-right: 1px solid rgb(223, 220, 220);
+}
+
+.follow-data {
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 4px;
+}
+
+.follow-data2 {
+    width: 100%;
+    height: 50px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(223, 220, 220);
+    border-radius: 4px;
+}
+
+.follow-data2 a {
+    text-decoration: none;
+    color: #4183c4
+}
+
+.followers,
+.following,
+.repo,
+.gist {
+    width: 130px;
+    height: 28px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: rgb(219, 40, 40);
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.following {
+    background-color: rgb(33, 186, 69);
+}
+
+.repo {
+    background-color: rgb(118, 118, 118);
+}
+
+.gist {
+    background-color: rgb(27, 28, 29);
+}
+
+.hire {
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 229, 229);
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.user-data2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 60%;
+    height: 100%;
+}
+
+.visit {
+    width: 140px;
+    height: 30px;
+    font-weight: 500;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: rgb(27, 28, 29);
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.name,
+.comp {
+    margin-bottom: 5px;
+}
+
+.loader {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 6%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000000000000000;
+    background: whitesmoke;
+}
+.spin {
+    width: 400px;
+    height: auto;
+}
+
+.check {
+    color: rgb(33, 186, 69);
+}
+
+.uncheck {
+    color: rgb(219, 40, 40);
+}
+
+@media screen and (max-width: 1440px) {
+    .detail {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .detail {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .back {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .detail {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .followers,
+.following,
+.repo,
+.gist {
+    width: 120px;
+    font-weight: 400;
+}
+
+.hire {
+    width: 120px;
+}
+
+.visit {
+    width: 120px;
+    height: 30px;
+    font-weight: 400;
+}
+}

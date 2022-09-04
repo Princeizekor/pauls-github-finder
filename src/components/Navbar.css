@@ -1,0 +1,100 @@
+.nav-bar {
+    width: 100%;
+    height: 40px;
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(113, 7, 212);
+}
+
+.logo-div {
+    align-items: center;
+    display: flex;
+}
+
+.logo-div p a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.logo-div p {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 5px;
+    color: whitesmoke;
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.nav-list p {
+    font-size: 15px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.home-div {
+    display: flex;
+    align-items: center;
+}
+
+.home-div p a {
+    text-decoration: none;
+    color: rgb(228, 224, 224);
+}
+
+.home {
+    font-size: 13px;
+    margin-right: 5px;
+    color: rgb(228, 224, 224);
+}
+
+.about-div {
+    display: flex;
+    align-items: center;
+}
+
+.about-div p a {
+    text-decoration: none;
+    color: rgb(228, 224, 224);
+}
+
+.about {
+    font-size: 15px;
+    font-weight: 800;
+    margin-right: 5px;
+    color: rgb(228, 224, 224);
+}
+
+@media screen and (max-width: 1440px) {
+    .nav-bar {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #home {
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
