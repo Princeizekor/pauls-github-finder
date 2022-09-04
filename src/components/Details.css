@@ -219,4 +219,19 @@
 .user-data2 p {
     font-size: 11px;
 }
+.user-data {
+    height: auto;
+    flex-direction: column;
+}
+
+.user-data1 {
+    width: 100%;
+    border-right: none;
+    padding: 10px;
+    border-bottom: 1px solid rgb(223, 220, 220);
+}
+.user-data2 {
+    width: 100%;
+    align-items: center;
+}
 }
