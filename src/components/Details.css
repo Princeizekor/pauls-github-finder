@@ -192,17 +192,31 @@
 .following,
 .repo,
 .gist {
-    width: 120px;
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
     font-weight: 400;
 }
 
 .hire {
-    width: 120px;
+    width: 100px;
+    height: 25px;
 }
 
 .visit {
     width: 120px;
-    height: 30px;
+    height: 25px;
+    font-size: 10px;
     font-weight: 400;
+}
+.user-data1 p {
+    font-size: 11px;
+}
+.user-data1 h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.user-data2 p {
+    font-size: 11px;
 }
 }
