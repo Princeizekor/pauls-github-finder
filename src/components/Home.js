@@ -37,7 +37,7 @@ function Home() {
             {
         loading ? <div className="loader">
         <img src="./img/Spinner-1s-24px (2).svg" alt="Loader image" className="spin"/>
-        <p>Loading</p>
+        <p>Loading...</p>
         </div> : null
             }
             <div className="users">
