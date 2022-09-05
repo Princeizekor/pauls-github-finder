@@ -50,7 +50,8 @@ function Details() {
                 <img src={data?.avatar_url} alt="user-image" className="user-img"/>
                 <h3>{data?.name}</h3>
                      <p>{location ? 'Location: null' : `Location: ${data?.location}`}</p>
-                     <button className="hire">{hire ? <p><i className="uncheck fa-solid fa-xmark"></i> Not Hireable </p> : <p><i className="check fa-solid fa-check"></i> Hireable</p> }</button>
+                     <button className="hire"><p><i className="check fa-solid fa-check"></i> Hireable</p></button>
+                     {/* <button className="hire">{hire ? <p><i className="uncheck fa-solid fa-xmark"></i> Not Hireable </p> : <p><i className="check fa-solid fa-check"></i> Hireable</p> }</button> */}
                 </div>
                 <div className="user-data2">
                     <h3>Bio</h3>
