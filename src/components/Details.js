@@ -5,7 +5,7 @@ import { Link, useParams } from 'react-router-dom'
 function Details() {
     const [data, setData] = useState([])
     const [repo, setRepo] = useState([])
-    const [hire, setHire] = useState(false)
+    // const [hire, setHire] = useState(false)
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(false)
     const [location, setLocation] = useState(null)
@@ -14,14 +14,14 @@ function Details() {
         axios.get(`https://api.github.com/users/${Param.details}`)
         .then(res => {
             setData(res.data)
-            setHire(true)
+            // setHire(true)
             setLoading(false)
             setError(false)
             setLocation(data.location)
         })
         .catch(err => {
             setError(err)
-            setHire(false)
+            // setHire(false)
             setLoading(false)
             setLocation(null)
         })
